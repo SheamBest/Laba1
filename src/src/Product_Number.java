@@ -1,10 +1,10 @@
 package src;
 
-public class Product_Amount {
+public class Product_Number {
     private Product product;
     private int number;
 
-    public Product_Amount(final Product product, final int number) {
+    public Product_Number(final Product product, final int number) {
         this.product = product;
         this.number = number;
     }
