@@ -25,7 +25,7 @@ public class Product_Number {
         this.number = number;
     }
 
-    public int finalPrice() {
+    public int finalPriceOfProduct() {
         return product.getPrice() * number;
     }
 }

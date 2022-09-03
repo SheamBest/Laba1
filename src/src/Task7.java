@@ -14,9 +14,9 @@ public class test7 {
         System.out.println("***Paycheck***");
         for (final Product_Number product : products) {
             System.out.println(product.getProduct());
-            System.out.println("Total: " + product.getAmount() + " pieces = " + product.finalPrice() + " UAH");
+            System.out.println("Total: " + product.getAmount() + " pieces = " + product.finalPriceOfProduct() + " UAH");
         }
-        final int totalAmount = products[0].finalPrice() + products[1].finalPrice();
+        final int totalAmount = products[0].finalPriceOfProduct() + products[1].finalPriceOfProduct();
         System.out.println("Total amount: " + totalAmount + " UAH");
     }
 }
