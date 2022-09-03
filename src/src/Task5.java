@@ -1,14 +1,14 @@
 package src;
 
-public class test5 {
+public class Task5 {
     public static void main(final String[] args) {
 
         final Matrix matrix = new Matrix();
 
         System.out.println("\n Original matrix: \n" );
-        matrix.Print();
+        matrix.print();
 
         System.out.println("\n Transposed matrix: \n" );
-        (matrix.Transposition()).Print();
+        (matrix.transposition()).print();
     }
 }

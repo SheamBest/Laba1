@@ -1,6 +1,6 @@
 package src;
 
-public class test6 {
+public class Task6 {
     public static void main(final String[] args) {
         final User user1 = new User("Maksym","Ivanchenko",17,"tickle.pickle@gmail.com");
         final User user2 = new User("Petro","Rubyk",21,"never.gonna.give.u.up@ukr.net");

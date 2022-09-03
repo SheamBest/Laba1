@@ -1,6 +1,6 @@
 package src;
 
-public class test3 {
+public class Task3 {
     static int factorial(final int number){
         if (number == 0)
             return 1;

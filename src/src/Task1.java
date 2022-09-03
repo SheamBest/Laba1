@@ -3,7 +3,7 @@ package src;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class test1 {
+public class Task1 {
     public static void sortArray(final String[] array, final char symbol){
         Arrays.sort(array, Comparator.comparingInt(string -> (int) string.chars().filter(ch -> ch == symbol).count()));
     }

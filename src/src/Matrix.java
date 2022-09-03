@@ -22,15 +22,14 @@ public class Matrix {
         numberOfColumns = byKeyboard.nextInt();
         matrix = new int[numberOfRows][numberOfColumns];
         System.out.println("Please assign the following elements: ");
-        for (int i = 0; i < numberOfRows; i++) {
+        for (int i = 0; i < numberOfRows; i++)
             for (int j = 0; j < numberOfColumns; j++) {
                 System.out.print("[" + i + "]" + "[" + j + "]: ");
                 matrix[i][j] = byKeyboard.nextInt();
             }
-        }
     }
 
-    public Matrix Transposition() {
+    public Matrix transposition() {
         final Matrix transMatrix = new Matrix(this.numberOfColumns, this.numberOfRows);
 
         for (int i = 0; i < transMatrix.numberOfRows; i++) {
@@ -41,7 +40,7 @@ public class Matrix {
         return transMatrix;
     }
 
-    public void Print() {
+    public void print() {
         for (int i = 0; i < numberOfRows; i++) {
             for (int j = 0; j < numberOfColumns; j++) {
                 System.out.print(matrix[i][j] + " ");
