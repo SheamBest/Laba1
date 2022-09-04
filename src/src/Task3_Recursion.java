@@ -1,6 +1,6 @@
 package src;
 
-public class Task3 {
+public class Task3_Recursion {
     static int factorial(final int number){
         if (number == 0)
             return 1;
@@ -9,8 +9,8 @@ public class Task3 {
     }
     public static void main(final String[] args) {
         final int factor;
-        final int number_of_numbers = 10;
-        factor = factorial(number_of_numbers);
-        System.out.println("Factorial of "+ number_of_numbers +" is: " + factor);
+        final int numberOfNumbers = 10;
+        factor = factorial(numberOfNumbers);
+        System.out.println("Factorial of "+ numberOfNumbers +" is: " + factor);
     }
 }
