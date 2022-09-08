@@ -1,4 +1,4 @@
-package src;
+package src.Task6;
 
 public class Task6 {
     public static void main(final String[] args) {

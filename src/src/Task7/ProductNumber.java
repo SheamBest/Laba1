@@ -1,4 +1,6 @@
-package src;
+package src.Task7;
+
+import src.Task7.Product;
 
 public class ProductNumber {
     private Product product;

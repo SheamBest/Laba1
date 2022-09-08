@@ -1,4 +1,6 @@
-package src;
+package src.Task9;
+
+import src.Task8.CustomDouble;
 
 public class Calculator {
     public double operations(final CustomDouble a, final char symbol, final CustomDouble b) {

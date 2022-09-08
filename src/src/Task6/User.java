@@ -1,4 +1,4 @@
-package src;
+package src.Task6;
 
 import java.util.Objects;
 
